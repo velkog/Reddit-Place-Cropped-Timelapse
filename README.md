@@ -32,7 +32,7 @@ To break down the command a bit:
 * The image processing command will crop and upscale the photos, then save the pictures named sequentially by frame number. The following values you'll want to edit are the following:
   * **`240:135`** - this is the width:height of the area of interest. 
   * **`589:338`** - this is the starting x:y value where your area of interest begins (the upper-left corner).
-  * **`3840x2160`** - this is the output resolution of the image. I wanted a really high quality video so I opted for 4K. If you don't care about having as high of quality you can save yourself some time and space and lower this image. To make sure the upscaling works well, I would make sure this dimension is directly proportional to the input dimensions (i.e. 3840x2160 is 16 times the size of 240x135).
+  * **`3840x2160`** - this is the output resolution of the image. I wanted a really high quality video so I opted for 4K. If you don't care about having as high of quality you can save yourself some time and space and lower this image. To make sure the upscaling works well, I would make sure this dimension is multiple of your input dimensions (i.e. 3840x2160 is 16 times 240x135).
   
 This is to be run as one singular command:
 
