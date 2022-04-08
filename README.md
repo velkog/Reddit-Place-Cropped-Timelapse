@@ -72,3 +72,8 @@ Use the following command, where:
 ```
 ffmpeg -i intermediate_extended.mp4 -i audio.mp3 -map 0:v -map 1:a -c:v copy -shortest timelapse_with_audio.mp4
 ```
+
+### 6. Contact
+If you have any questions, suggestions, etc. feel free to contact me on Discord velkog#2804, or on Twitter [@thevelkog](https://twitter.com/thevelkog).
+
+Or if you have any improvements, feel free to make a pull request!  
